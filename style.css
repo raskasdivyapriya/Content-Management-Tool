@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 1;
+  }
+  
+  header {
+    background-color: rgb(49, 93, 197);
+    color: #0a0a0a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  input,
+  textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #108e2b;
+    color: #090000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #postsContainer {
+    margin-top: 20px;
+  }
+  
+  .post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #110101;
+  }
+  
+  .post h2 {
+    margin-top: 0;
+  }
+  
+  .post img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
